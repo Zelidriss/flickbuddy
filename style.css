@@ -1,0 +1,93 @@
+/* Style for Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    /* Style for Navigation */
+    nav {
+    background-color: #0072c6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    /* Style for Main */
+    main {
+    margin: 20px;
+    }
+    
+    section {
+    margin: 20px 450px;
+    text-align: left;
+    }
+    
+    section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    section p {
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+    background-color: #0072c6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #005b9e;
+    }
+    
+    /* Style for Footer */
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
